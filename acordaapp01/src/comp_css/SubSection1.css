@@ -4,8 +4,21 @@
    background-repeat: no-repeat;
 }
 
+
 .feature{
 background-image: url("https://www.hdf-energy.com/site/assets/files/1153/home_bg-compressor.1366x0-large.jpg");
+height: 500px;
+width: 500px;
+}
+
+.feature2{
+    background-image: url("https://www.ge.com/sites/default/files/2020-02/Optimized_1.jpg");
+height: 500px;
+width: 500px;
+}
+
+.feature3{
+    background-image: url("https://www.ge.com/sites/default/files/2020-04/Leadership_Narrow.jpg");
 height: 500px;
 width: 500px;
 }

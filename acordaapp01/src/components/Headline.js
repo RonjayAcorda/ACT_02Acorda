@@ -38,6 +38,7 @@ function Headline(){
         <p>Never ending expansion and production of electricity that will provide for all those who believe.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
       </div>
+    
     </div>
 
 
@@ -57,6 +58,32 @@ function Headline(){
       </div>
     </div><br></br><br></br><br></br><br></br>
     <hr class="featurette-divider"></hr>
+
+    <br></br><br></br><br></br><br></br>
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Environmental, social, and governance</h2>
+        <p class="lead">GE brings to market innovative solutions that deliver essential energy, healthcare and transportation infrastructure. We work with the highest integrity, compliance culture and respect for human rights while also reducing the impact of our technology and environmental footprint.​</p>
+      </div>
+      <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto feature2"></div>
+    </div>
+
+    <br></br><br></br><br></br><br></br>
+    <hr class="featurette-divider"></hr>
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">We rise to the challenge of building a world that works.</h2>
+        <p class="lead">GE’s people are diverse and dedicated, operating with the highest level of integrity and focus to fulfill GE’s mission and deliver for its customers. Our leadership team and the Board are committed to this mission.</p>
+      </div>
+      <div class="col-md-5">
+        <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto feature3"></div>
+
+      </div>
+    </div><br></br><br></br><br></br><br></br>
+    <hr class="featurette-divider"></hr>
+
   </div>
   
  
@@ -65,8 +92,8 @@ function Headline(){
     
 
 <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-<br></br><br></br>
-<h1>Our Objective</h1>
+
+<h1 class="display-4 fw-normal  mt-5">Our Objective</h1>
 <br></br><br></br>
   <div class="carousel-indicators">
     <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active" aria-current="true"
