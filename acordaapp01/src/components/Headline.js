@@ -1,7 +1,7 @@
 function Headline(){
     return (
         <main>
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light headlinebg">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light headlinebg" width="100%">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
         
       <h1 class="display-4 fw-normal  mt-5">Generic Electric Co.</h1>
@@ -21,21 +21,21 @@ function Headline(){
         
         
         <h2 class="fw-normal">Efficient</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>A non stop production of electricity using no resource and no production of pollution.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
       </div>
       <div class="col-lg-4">
       
 
         <h2 class="fw-normal">Powerful</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Embedded with lots of electrical generators that can provide a whole state of country.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
       </div>
       <div class="col-lg-4">
       
 
         <h2 class="fw-normal">Consistent</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Never ending expansion and production of electricity that will provide for all those who believe.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
       </div>
     </div>
@@ -44,7 +44,7 @@ function Headline(){
     <br></br><br></br>
     <br></br><br></br>
   <hr class="featurette-divider"></hr>
-
+  <br></br><br></br><br></br><br></br>
   <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">Renewable energy is no longer a niche fuel.</h2>
@@ -55,14 +55,63 @@ function Headline(){
         <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto feature"></div>
 
       </div>
-    </div>
-
+    </div><br></br><br></br><br></br><br></br>
+    <hr class="featurette-divider"></hr>
   </div>
   
  
-  <br></br><br></br>
-    <br></br><br></br>
-    <hr></hr>
+
+
+    
+
+<div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+<br></br><br></br>
+<h1>Our Objective</h1>
+<br></br><br></br>
+  <div class="carousel-indicators">
+    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+
+  </div>
+
+
+  <div class="carousel-inner rounded-5 shadow-4-strong">
+
+    <div class="carousel-item active">
+      <img src="https://images-global.nhst.tech/image/eHZad2hXdjZ0MWhlYWpwMUpOWHdqVXJ3NFhaak45cWxqWjVGYXhkR1BLVT0=/nhst/binary/a370098f17df73ca7cb9ed4cc56f01b0" class="d-block w-100"
+        alt="Sunset Over the City" height="800px" />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>The road to zero: Power plant teams with GE on ‘Green Hydrogen’ demonstration project</h1>
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+        alt="Canyon at Nigh" />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>The GE Leadership Behaviors – Act with Humility, Lead with Transparency, and Deliver with Focus – are an essential part of our Lean culture transformation, reflecting how we each aim to act to drive progress.</h1>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br></br><br></br><br></br><br></br>
 
 
 </main>

@@ -1,6 +1,9 @@
 function Footer() {
     return (
+      <div>
+        <hr></hr>
         <footer class="py-5 container">
+          
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
         <h5>Main</h5>
@@ -14,17 +17,6 @@ function Footer() {
       </div>
 
       <div class="col-6 col-md-2 mb-3">
-        <h5>Members</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">President</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">V President</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Secretary</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Engineers</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Labors</a></li>
-        </ul>
-      </div>
-
-      <div class="col-6 col-md-2 mb-3">
         <h5>Partners</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Google</a></li>
@@ -32,6 +24,17 @@ function Footer() {
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tesla</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Space X</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Apple</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>References</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">General Motors</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MDB Bootstrap</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Photo1</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Photo2</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Photo3</a></li>
         </ul>
       </div>
 
@@ -49,6 +52,8 @@ function Footer() {
     </div>
 
   </footer>
+      </div>
+        
     );
 }
 export default Footer;

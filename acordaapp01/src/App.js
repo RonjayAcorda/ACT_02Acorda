@@ -3,6 +3,7 @@ import './comp_css/SubSection1.css'
 import Headline from './components/Headline';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Reference from './components/Reference';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <main className>
         <Headline/>
       </main>
+      <section>
+        <Reference/>
+      </section>
       <footer>
         <Footer/>
       </footer>
