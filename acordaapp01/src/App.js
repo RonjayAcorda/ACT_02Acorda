@@ -4,6 +4,8 @@ import Headline from './components/Headline';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Reference from './components/Reference';
+import Contrast from './components/Contrast'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <footer>
         <Footer/>
       </footer>
+      <Counter/>
+      <Contrast/>
     </div>
   );
 }
