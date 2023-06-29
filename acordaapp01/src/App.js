@@ -6,6 +6,9 @@ import Footer from './components/Footer';
 import Reference from './components/Reference';
 import Contrast from './components/Contrast'
 import Counter from './components/Counter'
+import UseContext from './components/UseContext';
+import UseRef from './components/UseRef';
+import UseEffect from './components/UseEffect';
 
 function App() {
   return (
@@ -22,8 +25,13 @@ function App() {
       <footer>
         <Footer/>
       </footer>
-      <Counter/>
-      <Contrast/>
+      <Counter/>{/*State*/}
+      <Contrast/>{/*State*/}
+      <UseContext/>{/*Hooks*/}
+      <UseRef/>{/*Hooks*/}
+      <UseEffect/>{/*Hooks*/}
+        <br></br>
+        <br></br>
     </div>
   );
 }
